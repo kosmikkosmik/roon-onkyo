@@ -1,0 +1,14 @@
+{
+    "name": "roon-extension-onkyo",
+    "version": "1.0.0",
+    "description": "Roon Extension controlling Onkyo AVR",
+    "main": "app.js",
+    "author": "Konstantin Romanov",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "node-roon-api": "github:roonlabs/node-roon-api",
+        "node-roon-api-volume-control": "github:roonlabs/node-roon-api-volume-control",
+        "node-roon-api-settings": "github:roonlabs/node-roon-api-settings",
+        "node-roon-api-status": "github:roonlabs/node-roon-api-status"
+    }
+}

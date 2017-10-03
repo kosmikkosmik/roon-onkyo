@@ -1,0 +1,11 @@
+{
+    "roonstate": {
+        "tokens": {
+            "72dfb876-63aa-4be9-bf33-fc09863a3c14": "99aee512-cdc8-4831-97e4-eee80fd1079e",
+            "8679b101-b72c-467e-9740-5483d71cdee9": "f600079f-b4d1-4bc9-9ead-6f93f1870f4a"
+        }
+    },
+    "settings": {
+        "hostname": "192.168.1.101"
+    }
+}
