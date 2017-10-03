@@ -73,10 +73,11 @@ var handleMasterVolume = function(volume) {
 }
 
 function setup_receiver_connection(hostname) {
+    console.log("setup_receiver_connection");
+
     receiver = new Onkyo.Receiver(appSettings.hostname);
-    receiver.handleStatusChanged = handleStatusChanged;
+    receiver.on("status", handleStatusChanged);
     receiver.on("master-volume", handleMasterVolume);
-    console.log(receiver);
     receiver.connect();
 }
 
